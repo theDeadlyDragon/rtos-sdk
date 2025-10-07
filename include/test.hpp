@@ -1,3 +1,3 @@
-#include <cstdio>w
+#include <cstdio>
 
 void test_print();
