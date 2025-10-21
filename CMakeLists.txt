@@ -1,5 +1,12 @@
 idf_component_register(
-    SRCS "test.cpp"
-    INCLUDE_DIRS "include"
-    REQUIRES esp_common
+    SRC_DIRS
+    "service"
+    "tasks"
+    "osal"
+    INCLUDE_DIRS 
+    "service/include"
+    "tasks/include"
+    "osal/include"
+    REQUIRES
+    esp_common
 )
